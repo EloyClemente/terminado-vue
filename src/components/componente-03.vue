@@ -1,7 +1,7 @@
 <template>
     <div class="contenido">
         <p>
-            Contenido 2
+            Contenido 3
         </p>
         <p>
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Numquam qui laudantium eligendi natus, doloribus, deserunt soluta voluptate quidem dolores maiores ipsa? Sapiente distinctio dolorum reiciendis voluptate optio voluptatum velit aperiam?

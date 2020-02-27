@@ -4,9 +4,7 @@
 
 
 		<div @click="function(e){ mostrar('1234', e) }" id="1234" class="container">
-
 			<h3 class="titulo">Título 1</h3>
-
 			<transition name="fade">
 				<div v-if="id == '1234'">
 					<Componente01/>
@@ -16,13 +14,22 @@
 
 
 		
-		<div @click="function(e){ mostrar('5678', e) }" id="4567" class="container">
-
+		<div @click="function(e){ mostrar('5678', e) }" id="5678" class="container">
 			<h3 class="titulo">Título 2</h3>
-
 			<transition name="fade">
 				<div v-if="id == '5678'">
 					<Componente02/>
+				</div>
+			</transition>
+		</div>
+
+
+
+		<div @click="function(e){ mostrar('9876', e) }" id="9876" class="container">
+			<h3 class="titulo">Título 3</h3>
+			<transition name="fade">
+				<div v-if="id == '9876'">
+					<Componente03/>
 				</div>
 			</transition>
 		</div>
@@ -37,13 +44,15 @@
 <script>
 	import Componente01 from './components/componente-01.vue'
 	import Componente02 from './components/componente-02.vue'
+	import Componente03 from './components/componente-03.vue'
 
 	export default {
 
 		name: 'App',
 		components: {
 			Componente01,
-			Componente02
+			Componente02,
+			Componente03
 		},
 
 		data()
