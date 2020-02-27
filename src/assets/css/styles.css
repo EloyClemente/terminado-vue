@@ -3,21 +3,21 @@
     padding: 0;
     box-sizing: border-box;
     font-family: sans-serif;
+    color: #333;
 }
 
-#app{
+#app{ /* Contenedor general de la app */
     padding: 15px;
 }
 
-.container{
+.container{ /* Contiene cada una de las lecciones, con título y contenido */
     height: 30px;
     transition: all, .3s;
     overflow: hidden;
-    /* border: 1px solid blue; */
     cursor: pointer;
 }
 
-.titulo{
+.titulo{ /* Título de la lección */
     transition: all, .3s;
 }
 
@@ -25,13 +25,22 @@
     color: royalblue;
 }
 
-.contenido{
+.titulo-color{
+    color: royalblue;
+}
+
+.contenido{ /* Contenido de la lección */
     padding-top: 10px;
     padding-bottom: 20px;
 }
 
+.contenido p{ 
+    line-height: 25px;
+}
 
 
+
+/* Crea fades al renderizar y destruir los compomnentes */
 .fade-enter-active, .fade-leave-active {
     transition: opacity .5s
 }

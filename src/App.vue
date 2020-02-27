@@ -62,6 +62,7 @@
 				for(let contenedor of contenedores)
 				{
 					contenedor.style.height = '30px' // Cerrar todos los contenedores
+					contenedor.children[0].style.color = "#333"
 				}
 
 
@@ -74,6 +75,7 @@
 					setTimeout(function() // Retrasamos la apertura para darle tiempo a renderizar el contenido
 					{
 						capa.style.height = capa.children[1].children[0].offsetHeight + 30 + 'px' // Abrir contenedor
+						capa.children[0].style.color = "royalblue"
 					}, 10)
 				}
 				else
