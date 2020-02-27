@@ -22,7 +22,7 @@
 }
 
 .titulo:hover{
-    color: royalblue;
+    color: royalblue !important; /* Para que javascript no sobreescriba el color */
 }
 
 .titulo-color{
