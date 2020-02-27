@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+#app{
+    padding: 15px;
+}
+
+.container{
+    height: 30px;
+    transition: all, .3s;
+    overflow: hidden;
+    /* border: 1px solid blue; */
+    cursor: pointer;
+}
+
+.titulo{
+    transition: all, .3s;
+}
+
+.titulo:hover{
+    color: royalblue;
+}
+
+.contenido{
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+
+
+.fade-enter-active, .fade-leave-active {
+    transition: opacity .5s
+}
+
+.fade-enter, 
+.fade-leave-to{ /* .fade-leave-active in <2.1.8 */ 
+    opacity: 0
+}
