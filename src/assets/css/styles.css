@@ -21,12 +21,9 @@
     transition: all, .3s;
 }
 
-.titulo:hover{
-    color: royalblue !important; /* Para que javascript no sobreescriba el color */
-}
-
-.titulo-color{
-    color: royalblue;
+.titulo:hover,
+.titulo_color{
+    color: royalblue; /* Para que javascript no sobreescriba el color */
 }
 
 .contenido{ /* Contenido de la lección */
